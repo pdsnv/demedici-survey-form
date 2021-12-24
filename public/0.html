@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="utf8">
+    <title>De Medici</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+
+  <body>
+    <div style="margin-left: auto; margin-right: auto; display: block; width: 50%; margin-top: 20%; text-align: center; font-size: 1.3em;" class="form">
+    <img style="margin-bottom: 1em; margin-left: auto; margin-right: auto; display: block;" width="300px" src="https://www.demedici.com/media/logo/stores/2/demedici-logo.png"
+    <p style="text-align: justify;">We're sorry to have let you down,<br> how could we improve?</p>
+    <form style="text-align: center;" method="POST" action="https://hook.integromat.com/ku78ra6pg1rfh1jq9wqz1cb6divd9awt">
+      <div class="input">
+        
+        <textarea rows="7" cols="50" name="comments"></textarea>
+      </div>
+      <input id="Name" type="hidden" value="">
+     
+
+      <button style="margin-top: 3em;" type="submit">Submit</button>
+    </form>
+    <script type="text/javascript">
+      var query = window.location.search.substring(2);
+      var Field=query.split("=");
+      document.getElementById("Name").value = Field[2];
+  </script>
+  </div>
+  </body>
+</html>
